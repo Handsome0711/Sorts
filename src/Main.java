@@ -1,11 +1,8 @@
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        BubbleSort bubbleSort = new BubbleSort();
+        Sort bubbleSort = new Sort();
         bubbleSort.setElements();
-        bubbleSort.sort();
-        bubbleSort.showResult();
+        bubbleSort.callSorts();
     }
 }
