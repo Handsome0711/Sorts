@@ -3,8 +3,8 @@ import java.util.ArrayList;
 public class InsertionSort {
     private ArrayList<Integer> list;
     private int size;
-    public InsertionSort(ArrayList<Integer> insSort, int size){
-        this.list = insSort;
+    public InsertionSort(ArrayList<Integer> list, int size){
+        this.list = new ArrayList<Integer>(list);
         this.size = size;
     }
 

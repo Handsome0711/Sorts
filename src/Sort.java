@@ -23,9 +23,13 @@ public class Sort {
         System.out.println("Bubble sort:");                                     //Call bubble sort
         BubbleSort bubbleSort= new BubbleSort(this.list, this.size);
         showResult(bubbleSort.sort());
+
         System.out.println("\nInsertion sort:");
         InsertionSort insertionSort = new InsertionSort(this.list, this.size);  //Call insertion sort
         showResult(insertionSort.sort());
 
+        System.out.println("\nSelectionSort:");
+        SelectionSort selectionSort = new SelectionSort(this.list, this.size); // Call selection sort
+        showResult(selectionSort.sort());
     }
 }
